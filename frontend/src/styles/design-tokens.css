@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Chitties Enterprise Design Tokens & Theme Variables
+   Color Palette: Deep Emerald Green, Soft Mint, Subtle Gold, Clean White & Slate
+   ========================================================================== */
+
+:root {
+  /* Brand Primary: Deep Emerald Green */
+  --emerald-950: #022c22;
+  --emerald-900: #064e3b;
+  --emerald-800: #065f46;
+  --emerald-700: #047857;
+  --emerald-600: #059669; /* Primary Brand */
+  --emerald-500: #10b981;
+  --emerald-400: #34d399;
+  --emerald-300: #6ee7b7;
+  --emerald-200: #a7f3d0;
+  --emerald-100: #d1fae5; /* Soft Mint */
+  --emerald-50:  #ecfdf5; /* Subtle Mint Background */
+
+  /* Supporting Accent: Subtle Gold / Warm Amber */
+  --gold-800: #92400e;
+  --gold-700: #b45309;
+  --gold-600: #d97706;
+  --gold-500: #f59e0b; /* Accent Gold */
+  --gold-400: #fbbf24;
+  --gold-200: #fde68a;
+  --gold-100: #fef3c7;
+  --gold-50:  #fffbeb;
+
+  /* Surfaces & Clean Backgrounds (Light & Modern) */
+  --bg-app: #f8fafc;        /* Slate 50 Neutral Light App Background */
+  --bg-subtle: #f1f5f9;     /* Slate 100 Input & Table Hover */
+  --bg-card: #ffffff;       /* Pure Crisp White Card */
+  --bg-card-hover: #fafbfc;
+  --bg-sidebar: #064e3b;    /* Deep Emerald Sidebar */
+  --bg-sidebar-hover: rgba(255, 255, 255, 0.08);
+  --bg-sidebar-active: #047857;
+
+  /* Borders & Dividers */
+  --border-subtle: #e2e8f0; /* Slate 200 */
+  --border-medium: #cbd5e1; /* Slate 300 */
+  --border-focus: #10b981;  /* Emerald Focus Ring */
+
+  /* Typography Colors */
+  --text-primary: #0f172a;   /* Slate 900 */
+  --text-secondary: #475569; /* Slate 600 */
+  --text-muted: #64748b;     /* Slate 500 */
+  --text-light: #94a3b8;     /* Slate 400 */
+  --text-inverse: #ffffff;
+  --text-brand: #047857;     /* Deep Emerald Brand Text */
+
+  /* Functional Status Colors */
+  --status-success-bg: #ecfdf5;
+  --status-success-text: #065f46;
+  --status-success-border: #a7f3d0;
+
+  --status-warning-bg: #fffbeb;
+  --status-warning-text: #92400e;
+  --status-warning-border: #fde68a;
+
+  --status-danger-bg: #fef2f2;
+  --status-danger-text: #991b1b;
+  --status-danger-border: #fecaca;
+
+  --status-info-bg: #f0f9ff;
+  --status-info-text: #075985;
+  --status-info-border: #bae6fd;
+
+  --status-purple-bg: #faf5ff;
+  --status-purple-text: #6b21a8;
+  --status-purple-border: #e9d5ff;
+
+  /* Shadows (Fintech Refined) */
+  --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.06), 0 1px 2px 0 rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -1px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -2px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 10px 10px -5px rgba(15, 23, 42, 0.04);
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Fonts */
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+}
